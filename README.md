@@ -2,6 +2,8 @@
 
 ## 项目介绍
 
+The cpp-based deployment of CosyVoice2
+
 对阿里出品[CosyVoice2](https://github.com/FunAudioLLM/CosyVoice)模型的Cpp化部署
 
 通过分割原始python项目，按模块导出为onnx模型，摆脱臃肿的python环境，实现在Cpp语言环境下的文字转语音推理。
@@ -54,7 +56,7 @@
 
      因为libtorch编译需要nvToolsExt，但 [CUDA Toolkit 12.1](https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)并不提供，所以需要下载CUDA11.6，在安装页面仅选择【Nsight NVTX】进行安装，安装结束后，便可在`C:\Program Files\NVIDIA Corporation\NvToolsExt\bin\x64`下找到nvToolsExt.dll
 
-     <img src=".\images\image-20250801233428979.png" alt="image-20250801233428979" style="zoom:100%;" />
+     <img src="images\image-20250801233428979.png" alt="image-20250801233428979" style="zoom:100%;" />
 
   7. [onnxruntime-win-x64-gpu-1.21.0](https://github.com/microsoft/onnxruntime/releases)
 
@@ -128,7 +130,7 @@
 
 [Ctrl + shift + G]打开搜索选项栏，输入CMake，选择弹出的[CMake:Selectr a Kit/ CMake:选择工具包]，然后会有如下选项：
 
-![image-20250802002741498](.\images\image-20250802002741498.png)
+![image-20250802002741498](images\image-20250802002741498.png)
 
 如果成功安装VS Studio，会自动扫描到VS 工具包，选择 x64 体系
 
@@ -138,7 +140,7 @@
 
 在左侧扩展栏点击CMake，切换生成配置为`Release`，这非常关键！
 
-![image-20250802003433032](.\images\image-20250802003433032.png)
+![image-20250802003433032](images\image-20250802003433032.png)
 
 
 
