@@ -130,7 +130,7 @@ The cpp-based deployment of CosyVoice2
 
 [Ctrl + shift + G]打开搜索选项栏，输入CMake，选择弹出的[CMake:Selectr a Kit/ CMake:选择工具包]，然后会有如下选项：
 
-![image-20250802002741498](images\image-20250802002741498.png)
+<img src="images\image-20250802002741498.png" alt="image-20250802002741498"  />
 
 如果成功安装VS Studio，会自动扫描到VS 工具包，选择 x64 体系
 
@@ -140,7 +140,7 @@ The cpp-based deployment of CosyVoice2
 
 在左侧扩展栏点击CMake，切换生成配置为`Release`，这非常关键！
 
-![image-20250802003433032](images\image-20250802003433032.png)
+<img src="images\image-20250802003433032.png" alt="image-20250802003433032"  />
 
 
 
