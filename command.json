@@ -1,0 +1,8 @@
+{
+	"useCUDA": false,
+	"useTRT": true,
+	"seed": 300,
+	"spkId": "原神-诺艾尔",
+	"ttsText": "今天天气不错，我们去散步吧。",
+	"instructText": "平和的语气"
+}
