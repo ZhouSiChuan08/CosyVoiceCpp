@@ -152,7 +152,7 @@ The cpp-based deployment of CosyVoice2
 
   由于笔者能力及精力有限，并未实现音色克隆的cpp化，仍需使用原python [CosyVoice2](https://github.com/FunAudioLLM/CosyVoice)项目进行音色克隆，我编写了一个简单脚本`spkdata.py`放置在项目根目录，用以方便地进行音色克隆：
 
-  准备一段3s到10s的人声音频文件和其对应对白文本，并为其命名唯一地音色id。
+  准备一段3s到10s的人声音频文件和其对应对白文本，并为其命名唯一的音色id。
 
   如：
 
