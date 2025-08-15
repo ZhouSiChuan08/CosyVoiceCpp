@@ -208,7 +208,7 @@ The cpp-based deployment of CosyVoice2
 
 - 开始合成
 
-  在项目根目录打开终端，执行`chcp 65001`开启支持`UTF-8`
+  在项目根目录打开终端，执行`chcp 65001`开启支持`UTF-8`，进入可执行文件的生成文件夹`Release`
 
   启动程序：
 
