@@ -256,3 +256,9 @@ The cpp-based deployment of CosyVoice2
 ​	本项目在`spkInfo.jit`中准备了三个中文音色以供调试：`原神-丽莎`、 `原神-迪卢克`、`原神-诺艾尔`
 
 ​	可以使用[netron](https://netron.app/) 查看`spkInfo.jit`的具体结构
+
+### 6. 支持
+
+如果你觉得项目对你有所帮助，可以请SiChuan喝杯柠檬水！
+
+<img src=".\images\pay.png" alt="pay" style="zoom:50%;" />
